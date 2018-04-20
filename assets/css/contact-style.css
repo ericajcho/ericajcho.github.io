@@ -1,0 +1,91 @@
+body, html {	/*the outer layer of the site and global style attributes*/
+font-family: 'Raleway', sans-serif;
+margin: 30px;
+margin-left: 30px;
+
+position: relative;
+
+/*-----BACKGROUND STUFF-----*/
+
+background: #B7CEBD;
+
+
+}
+
+
+
+.intro {
+	font-family: 'Raleway', sans-serif;
+	/*margin-top: 0px;*/
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: #FFF4DD;
+	/*color: #9DC6C6;*/
+	/*color: #FFF6E5;*/
+	margin: 20px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+
+.bio-box {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.bio {
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #FFF4DD;
+}
+
+.description {
+	/*color: #78A08B;*/
+	font-size: 14px;
+}
+
+#me img {	
+	width: 400px;
+	height: 520px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: left;
+	/*transform: scale(0.2);*/
+  	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
+}
+
+
+
+
+#navbar {
+	margin-top: 140px;
+	/*margin-left: 20px;*/
+	color: #FFF4DD;
+	letter-spacing: 3px;
+	word-spacing: 30px;
+}
+
+.about:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+}
+
+.adventures:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+
+}
+.contact:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+
+}

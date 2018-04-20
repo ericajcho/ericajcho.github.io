@@ -1,0 +1,98 @@
+body, html {	/*the outer layer of the site and global style attributes*/
+/*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+font-family: 'Raleway', sans-serif;
+margin: 30px;
+margin-left: 170px;
+/*height: 100%;
+width: 100%;*/
+position: relative;
+
+/*-----BACKGROUND STUFF-----*/
+/*background: #EDB055; */
+/*orange*/
+background: #B7CEBD;
+
+/*background: #9DC6C6;*/
+/*blue-ish*/
+
+/*background: #FFEABC; */
+/*off-white/orange-ish*/
+
+
+/*background: #FFF2D6;*/
+/*off-white*/
+
+/*background: #FFF6E5;*/
+/*background:#FFF4DD;*/
+}
+
+.intro {
+	font-family: 'Raleway', sans-serif;
+	/*margin-top: 0px;*/
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 10px;
+	color: #FFF4DD;
+	/*color: #9DC6C6;*/
+	/*color: #FFF6E5;*/
+	margin: 20px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+
+#me img {	
+	width: 400px;
+	height: 400px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	/*transform: scale(0.2);*/
+  	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
+}
+
+/*#me:hover{*/
+	/*show real picture*/
+/*}*/
+
+#navbar {
+	margin-left: 20px;
+	color: #FFF4DD;
+	letter-spacing: 3px;
+	word-spacing: 30px;
+}
+
+.about:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+}
+
+.about:active {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+}
+/*.interests:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+
+}*/
+.adventures:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+
+}
+.contact:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+
+}
