@@ -1,6 +1,6 @@
 body, html {	/*the outer layer of the site and global style attributes*/
 font-family: 'Raleway', sans-serif;
-margin: 30px;
+margin: 20px;
 margin-left: 30px;
 
 position: relative;
@@ -8,34 +8,39 @@ position: relative;
 /*-----BACKGROUND STUFF-----*/
 
 background: #B7CEBD;
+}
 
-
+a {
+	text-decoration: none;
+	color: #FFF4DD;
 }
 
 .whole-page {
+/*	border: solid;
+	border-color: red;*/
+
 	display: grid;
-	grid-template-columns: 50% 50%;
-	/*padding-right: 1px;*/
+	grid-template-rows: 50% 50%;
 }
 
-.right {
+.bottom {
 	padding: 20px;
 	padding-left: 30px;
 }
 
 
 .intro {
+/*	border: solid;
+	border-color: blue;*/
+
 	font-family: 'Raleway', sans-serif;
-	/*margin-top: 0px;*/
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 10px;
 	color: #FFF4DD;
-	/*color: #9DC6C6;*/
-	/*color: #FFF6E5;*/
-	/*margin: 20px;*/
+
 	margin-bottom: 30px;
-	margin-left: 0px;
+	
 }
 
 
@@ -49,11 +54,26 @@ background: #B7CEBD;
 	font-weight: bold;
 	letter-spacing: 3px;
 	color: #FFF4DD;
+	margin-bottom: 10px;
+	margin-left: -15px;
 }
 
 .description {
-	/*color: #78A08B;*/
+/*	border: solid;
+	border-color: red;*/
+
 	font-size: 14px;
+	color: black;
+	margin-left: -35px;
+	text-indent: 0;
+
+}
+
+.description-box {
+	height: 200px;
+	display: grid;
+	grid-template-rows: 25% 45% 30%;	
+	text-indent: 0;
 }
 
 
@@ -61,31 +81,16 @@ background: #B7CEBD;
 	position: relative;
 	height: 275px;
 	width: 500px;
-	margin:0 auto;
 }
 
-/*#me img {
-	position: absolute;
-	left:0;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
-}*/
 
 
-/*#me img.top:hover {
-	opacity:0;
-}*/
-
-
-#me img {	
+#me img {
 	width: 450px;
 	height: 245px;
 	margin-bottom: 30px;
-	display: flex;
-	align-items: left;
-	}
+}
+
 
 #me-icon img {	
 	width: 250px;
@@ -94,18 +99,22 @@ background: #B7CEBD;
 	margin-bottom: 30px;
 	display: flex;
 	align-items: left;
-
-	/*transform: scale(0.2);*/
-  	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
 }
 
 
 #navbar {
-	margin-top: 140px;
-	/*margin-left: 20px;*/
+	margin-bottom: 30px;
 	color: #FFF4DD;
 	letter-spacing: 3px;
 	word-spacing: 30px;
+	font-size: 15px;
+}
+
+.home:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
 }
 
 .about:hover {

@@ -1,6 +1,6 @@
 body, html {	/*the outer layer of the site and global style attributes*/
 font-family: 'Raleway', sans-serif;
-margin: 30px;
+margin: 20px;
 margin-left: 30px;
 
 position: relative;
@@ -9,63 +9,77 @@ position: relative;
 
 background: #B7CEBD;
 
+position: relative;
 
 }
 
+.whole-page {
+/*	border: solid;
+	border-color: red;*/
+
+	display: grid;
+	grid-template-rows: 20% 80%;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 43% 57%;
+}
 
 
 .intro {
 	font-family: 'Raleway', sans-serif;
-	/*margin-top: 0px;*/
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 10px;
 	color: #FFF4DD;
-	/*color: #9DC6C6;*/
-	/*color: #FFF6E5;*/
-	margin: 20px;
+
+	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 0px;
 }
 
 
-.bio-box {
-	display: grid;
-	grid-template-columns: 50% 50%;
-}
 
 .bio {
 	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	color: #FFF4DD;
+	margin-bottom: 15px;
 }
 
 .description {
-	/*color: #78A08B;*/
+	color: black;
 	font-size: 14px;
 }
 
 #me img {	
 	width: 350px;
 	height: 500px;
-	/*margin-top: 20px;*/
 	margin-bottom: 30px;
 	display: flex;
 	align-items: left;
-	/*transform: scale(0.2);*/
-  	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
 }
 
 
-
+a {
+	text-decoration: none;
+	color: #FFF4DD;
+}
 
 #navbar {
-	margin-top: 140px;
-	/*margin-left: 20px;*/
+
 	color: #FFF4DD;
 	letter-spacing: 3px;
 	word-spacing: 30px;
+	font-size: 15px;
+}
+
+.home:hover {
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
 }
 
 .about:hover {

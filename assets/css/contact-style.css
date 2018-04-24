@@ -1,73 +1,104 @@
 body, html {	/*the outer layer of the site and global style attributes*/
 font-family: 'Raleway', sans-serif;
-margin: 30px;
+margin: 20px;
 margin-left: 30px;
+/*max-width: 900px;*/
+position: absolute;
 
-position: relative;
+/*position: relative;*/
 
 /*-----BACKGROUND STUFF-----*/
 
 background: #B7CEBD;
 
+}
 
+.left {
+margin: 0px;
 }
 
 .whole-page {
+	margin: 12px;
+/*	border: solid;
+	border-color: red;*/
+	width: 1100px;
+	position: relative;
 	display: grid;
-	grid-template-columns: 70% 30%;
+	grid-template-rows: 70% 30%;
+}
 
-/*	display: flex;
-	flex-direction: row;*/
-
-	max-width: 700px;
-	margin: 20px;
+.content {
+/*	border: solid;
+	border-color: white;*/
+	display: grid;
+	grid-template-columns: 40% 55%;
 }
 
 .intro {
 	font-family: 'Raleway', sans-serif;
-	/*margin-top: 0px;*/
 	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 10px;
 	color: #FFF4DD;
-	/*color: #9DC6C6;*/
-	/*color: #FFF6E5;*/
+
 	margin: 20px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-left: 0px;
+	display: grid;
+	grid-template-rows: 30% 70%;
 }
 
 
-/*.bio-box {
-	display: grid;
-	grid-template-columns: 50% 50%;
-}*/
+#title {
+	margin-bottom: -10px;
+}
+
+.title {
+	font-size: 38px;
+}
+
 
 .right {
+	padding: 15px;
+/*	border: solid;
+	border-color: blue;*/
 	display: grid;
-	grid-template-rows: 40% 60%;
+	grid-template-rows: 8% 20% 75%;
 }
 
 .bio {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 3px;
 	color: #FFF4DD;
+	margin-left: 0px;
 }
+.bio-box {
+	color: black;
+}
+
 
 .description {
-	/*color: #78A08B;*/
-	font-size: 14px;
+	font-size: 18px;
+	color: black;
 }
 
+
 .logos {
+/*	border: solid;
+	border-color: black;*/
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
+	width: 250px;
+
 }
 
 #facebook img {
-	width: 50px;
-	height: 50px;
+	margin-left: -6px;
+	width: 60px;
+	height: 60px;
+	margin-top: -6px;
 }
 
 #instagram img {
@@ -88,25 +119,33 @@ background: #B7CEBD;
 	margin-bottom: 30px;
 	display: flex;
 	align-items: left;
-	/*transform: scale(0.2);*/
-  	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
 }
 
 
-
+a {
+	text-decoration: none;
+	color: #FFF4DD;	
+}
 
 #navbar {
-	margin-top: 140px;
+/*	border:solid;
+	border-color: orange;*/
+	margin-top: 0px;
 	/*margin-left: 20px;*/
 	color: #FFF4DD;
 	letter-spacing: 3px;
-	word-spacing: 30px;
+	word-spacing: 33px;
+	font-size: 20px;
 }
 
 
-.about:active {
+.home:hover {
+	cursor: pointer;
 	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
 }
+
 
 .about:hover {
 	cursor: pointer;
@@ -115,12 +154,6 @@ background: #B7CEBD;
 	transition: 0.4s;
 }
 
-.about:visited {
-	cursor: pointer;
-	color: #F2844D;
-	opacity:.75;
-	transition: 0.4s;
-}
 
 
 .adventures:hover {
