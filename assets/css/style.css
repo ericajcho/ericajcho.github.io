@@ -26,6 +26,12 @@ background: #B7CEBD;
 /*background:#FFF4DD;*/
 }
 
+.whole-page {
+	max-width: 700px;
+	margin: auto;
+	max-height: 500px;
+}
+
 .intro {
 	font-family: 'Raleway', sans-serif;
 	/*margin-top: 0px;*/
@@ -62,19 +68,37 @@ background: #B7CEBD;
 	word-spacing: 30px;
 }
 
+
+.about:link {
+	text-decoration: none;
+	color: #F2844D;
+}
+
+
+.about:visited {
+	/*cursor: pointer;*/
+	text-decoration: none;
+	color: #F2844D;
+	/*opacity:.75;*/
+	/*transition: 0.4s;*/
+}
+
+
 .about:hover {
+	text-decoration: none;
 	cursor: pointer;
 	color: #F2844D;
 	opacity:.75;
 	transition: 0.4s;
 }
 
+
 .about:active {
-	cursor: pointer;
+	text-decoration: none;
 	color: #F2844D;
-	opacity:.75;
-	transition: 0.4s;
 }
+
+
 /*.interests:hover {
 	cursor: pointer;
 	color: #F2844D;
