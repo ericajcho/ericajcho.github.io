@@ -8,26 +8,310 @@ position: relative;
 /*-----BACKGROUND STUFF-----*/
 
 background: #B7CEBD;
-
 position: relative;
+}
+
+
+#writing{
+	color: black;
+}
+
+.p {
+	padding-bottom: 15px;
+	padding-top: 20px;
+}
+
+#title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #FFF4DD;
+	margin-top: 15px;
+	margin-bottom: -25px;
+	padding-top: 5px;
+}
+
+#blog-title1 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #F2844D;
+	margin-bottom: 15px;
+	/*margin-top: 50px;*/
+}
+.blog-title1 {
+	color: #F2844D;
+}
+
+#blog-title2 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #F2844D;
+	margin-bottom: 15px;
 
 }
+.blog-title2 {
+	color: #F2844D;
+}
+
+#blog-title3 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #F2844D;
+	margin-bottom: 15px;
+
+}
+.blog-title3 {
+	color: #F2844D;
+}
+
+
+
+
+
+
+.bottom-whole{
+	width: 900px;
+}
+
+
+/*------------------*/
+#moic-container {
+	padding-top: 40px;
+}
+
+.moic-pics {
+	padding-bottom: 10px;
+}
+
+#moic-description{
+	margin-bottom: 350px;
+	color: black;
+}
+
+.moic1{
+	height: 100px;
+	width: 170px;
+}
+.moic1:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.moic2{
+	height: 100px;
+	width: 170px;
+}
+.moic2:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.moic3 {
+	height: 100px;
+	width: 150px;
+}
+.moic3:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.moic4 {
+	height: 100px;
+	width: 80px;
+}
+.moic4:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+.moic5 {
+	height: 100px;
+	width: 80px;
+}
+.moic5:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*-------------------*/
+#sf-container{
+	padding-top: 60px;
+}
+
+#sf-description{
+	margin-bottom: 350px;
+	color: black;
+}
+
+
+.sf-pics {
+	padding-bottom: 10px;
+}
+
+
+.sf1 {
+	height: 100px;
+	width: 150px;
+}
+.sf1:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+
+.sf2 {
+	height: 100px;
+	width: 100px;
+}
+.sf2:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.sf3 {
+	height: 100px;
+	width: 100px;
+}
+.sf3:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+.sf4 {
+	height: 100px;
+	width: 130px;
+}
+.sf4:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.sf5 {
+	height: 100px;
+	width: 130px;
+}
+.sf5:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+
+/*-------------------*/
+#skitrip-container{
+	padding-top: 60px;
+}
+
+#skitrip-description{
+	margin-bottom: 350px;
+	color: black;
+}
+
+
+
+.skitrip-pics {
+	padding-bottom: 10px;
+}
+.ski1 {
+	height: 100px;
+	width: 140px;
+}
+.ski1:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.ski2 {
+	height: 100px;
+	width: 140px;
+}
+.ski2:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.ski3 {
+	height: 100px;
+	width: 140px;
+}
+.ski3:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.ski4 {
+	height: 100px;
+	width: 140px;
+}
+.ski4:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.ski5 {
+	height: 100px;
+	width: 140px;
+}
+.ski5:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+.ski6 {
+	height: 100px;
+	width: 140px;
+}
+.ski6:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+/*-------------------*/
+
+
+
+
+
+
+
+
+
+
 
 .whole-page {
 /*	border: solid;
 	border-color: red;*/
-
+	width: 500px;
 	display: grid;
 	grid-template-rows: 20% 80%;
 }
 
 .content {
+/*	border:solid;
+	border-color: white;*/
 	display: grid;
 	grid-template-columns: 43% 57%;
+	width: 1000px;
 }
 
 
+
+
 .intro {
+/*	border: solid;
+	border-color: blue;*/
+
+
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
@@ -38,7 +322,21 @@ position: relative;
 	margin-bottom: 30px;
 }
 
+.right {
+/*	border: solid;
+	border-color: green;*/
+	margin-left: -40px;
+	display: grid;
+	grid-template-rows: 20% 80%;
+	width: 600px;
 
+}
+
+.bottom {
+/*	border: solid;
+	border-color: pink;*/
+
+}
 
 .bio {
 	font-size: 20px;
@@ -48,10 +346,237 @@ position: relative;
 	margin-bottom: 15px;
 }
 
+.bio-box {
+/*	border: solid;
+	border-color: yellow;*/
+	margin-left: 13px;
+}
+
+
 .description {
 	color: black;
 	font-size: 14px;
 }
+
+
+.folders {
+/*	border: solid;
+	border-color: purple;*/
+	margin-top: -9px;
+	display: grid;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	padding: 7px;
+}
+
+.picture {
+	position: relative;
+	display: block;
+	animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+.picture:hover {
+	cursor: pointer;
+}
+
+
+
+
+.picture2 {
+	position: relative;
+	display: block;
+/*	margin: 20px auto;
+	width: 80%;
+	min-width: 50%;*/
+	animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+.picture2:hover {
+	cursor: pointer;
+}
+
+
+
+.picture3 {
+	position: relative;
+	display: block;
+/*	margin: 20px auto;
+	width: 80%;
+	min-width: 50%;*/
+	animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+.picture3:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+#moic{
+	/*border:solid;
+	border-color: red;*/
+	padding: 7px;
+	display: flex;
+	flex-direction: row;
+}
+
+#short {
+	padding-left: 20px;
+	/*padding-top: 35px;*/
+}
+
+.short:hover{
+	cursor: pointer;
+	color: #F2844D;
+	opacity:.75;
+	transition: 0.4s;
+}
+
+#moic img {
+	height: 100px;
+	width: 170px;
+}
+
+#moic:hover{
+	opacity: 0.8;
+}
+
+
+
+/*#socal{
+	padding: 7px;
+	display: flex;
+	flex-direction: row;
+}
+#socal img {
+	height: 120px;
+	width: 170px;
+}
+#socal:hover{
+	opacity: 0.8;
+}*/
+
+
+
+
+#sf{
+	padding: 7px;
+	display: flex;
+	flex-direction: row;
+}
+#sf img {
+	height: 130px;
+	width: 170px;
+}
+#sf:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+#skitrip{
+	padding: 7px;
+	display: flex;
+	flex-direction: row;
+}
+#skitrip img {
+	height: 130px;
+	width: 170px;
+}
+#skitrip:hover{
+	opacity: 0.8;
+}
+
+
+
+
+/*---------------*/
+
+.pic-click-moic {
+	position: fixed;
+	z-index: 21;
+	width: 70%;
+	top: 10%;
+	left: 5%;
+	right: 10%;
+	height: 75%;
+}
+
+.pic-click {
+	position: fixed;
+	z-index: 21;
+	width: 70%;
+	top: 5%;
+	left: 10%;
+	height: 90%;
+}
+
+.pic-click:hover {
+	cursor: default;
+	opacity: 0.9;
+}
+
+
+.pic-click-vertical {
+	position: fixed;
+	z-index: 21;
+	width: 30%;
+	top: 10%;
+	left: 30%;
+	height: 80%;
+}
+
+.pic-click-vertical:hover {
+	cursor: default;
+	opacity: 0.9;
+}
+
+
+
+
+#overlay {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.75);
+	top: 0px;
+	left: 0px;
+	z-index: 20;
+	opacity: 0.8;
+}
+
+
+#close {
+	position: fixed;
+	width: 25px;
+	top: 25px;
+	right: 20px;
+}
+
+#close:hover {
+	cursor: pointer;
+}
+
+
+/*---------------*/
+
 
 #me img {	
 	width: 350px;
@@ -67,7 +592,13 @@ a {
 	color: #FFF4DD;
 }
 
+
+
+
+
 #navbar {
+/*	border: solid;
+	border-color: orange;*/
 
 	color: #FFF4DD;
 	letter-spacing: 3px;
