@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-	// $("#me").hover(function(){
-	// 	$("#me").removeClass("#me");
-	// 	$("#me").addClass("#me-new");
-	// }, function() {
-	// 	$("#me").removeClass("#me-new");
-	// 	$("#me").addClass("#me");
-	// 	});
-
-
 	$.fn.scrollView = function () {
 		return this.each(function() {
 			$('html, body').animate({
@@ -19,11 +10,11 @@ $(document).ready(function(){
 
 
 
-	$(".picture").click(function(event) { //jQuery Function #1
+	$(".picture").click(function(event) { // jQuery Function #1
 		event.preventDefault();
-		$(this).fadeOut(); //jQuery Function #2
-		$(this).fadeIn(); //jQuery Function #3
-		$(".blog-title1").scrollView(); //jQuery Function #4
+		$(this).fadeOut(); // jQuery Function #2
+		$(this).fadeIn(); // jQuery Function #3
+		$(".blog-title1").scrollView(); // jQuery Function #4
 	})
 
 
@@ -46,13 +37,13 @@ $(document).ready(function(){
 // -----------------------
 
 	$(".moic1").click(function() {
-		$(this).addClass("pic-click-moic");
+		$(this).addClass("pic-click-moic"); // jQuery Function #5
 		$("#overlay").show();
 	});
 
 	$("#overlay").click(function() {
 		$(this).hide();
-		$(".moic1").removeClass("pic-click-moic");
+		$(".moic1").removeClass("pic-click-moic"); // jQuery Function #6
 	});
 
 	$(".moic2").click(function() {
@@ -211,7 +202,6 @@ $(document).ready(function(){
 		$(this).hide();
 		$(".ski6").removeClass("pic-click");
 	});
-// -----------------------
 		
 
 

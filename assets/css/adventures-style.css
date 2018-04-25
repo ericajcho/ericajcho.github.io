@@ -37,7 +37,6 @@ position: relative;
 	font-weight: bold;
 	color: #F2844D;
 	margin-bottom: 15px;
-	/*margin-top: 50px;*/
 }
 .blog-title1 {
 	color: #F2844D;
@@ -287,7 +286,6 @@ position: relative;
 
 
 
-
 .whole-page {
 /*	border: solid;
 	border-color: red;*/
@@ -387,9 +385,6 @@ position: relative;
 .picture2 {
 	position: relative;
 	display: block;
-/*	margin: 20px auto;
-	width: 80%;
-	min-width: 50%;*/
 	animation: fadein 1s;
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
@@ -404,9 +399,7 @@ position: relative;
 .picture3 {
 	position: relative;
 	display: block;
-/*	margin: 20px auto;
-	width: 80%;
-	min-width: 50%;*/
+
 	animation: fadein 1s;
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
