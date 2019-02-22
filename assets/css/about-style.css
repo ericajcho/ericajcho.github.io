@@ -19,7 +19,7 @@ a {
 /*	border: solid;
 	border-color: red;*/
 
-	display: grid;
+	/*display: grid;*/
 	grid-template-rows: 20% 80%;
 }
 

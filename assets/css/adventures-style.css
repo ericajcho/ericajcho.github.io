@@ -290,8 +290,9 @@ position: relative;
 /*	border: solid;
 	border-color: red;*/
 	width: 500px;
-	display: grid;
+	/*display: grid;*/
 	grid-template-rows: 20% 80%;
+
 }
 
 .content {
@@ -300,15 +301,18 @@ position: relative;
 	display: grid;
 	grid-template-columns: 43% 57%;
 	width: 1000px;
+	/*margin-top: -100px;*/
 }
 
+.left {
+
+}
 
 
 
 .intro {
 /*	border: solid;
 	border-color: blue;*/
-
 
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
@@ -425,6 +429,7 @@ position: relative;
 	padding: 7px;
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 25px;
 }
 
 #short {
@@ -470,6 +475,7 @@ position: relative;
 	padding: 7px;
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 25px;
 }
 #sf img {
 	height: 130px;
@@ -487,6 +493,7 @@ position: relative;
 	padding: 7px;
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 25px;
 }
 #skitrip img {
 	height: 130px;
