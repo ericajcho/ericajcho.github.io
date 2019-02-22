@@ -62,15 +62,26 @@ a {
 	margin-left: -15px;
 }
 
-.description {
+.description1 {
 /*	border: solid;
 	border-color: red;*/
-
 	font-size: 14px;
 	color: black;
-	margin-left: -35px;
 	text-indent: 0;
+}
 
+.description2 {
+	font-size: 14px;
+	color: black;
+	text-indent: 0;
+	margin-top: 15px;
+}
+
+.description3 {
+	font-size: 14px;
+	color: black;
+	text-indent: 0;
+	margin-top: 10px;
 }
 
 .description-box {
@@ -79,6 +90,7 @@ a {
 	grid-template-rows: 25% 45% 30%;	
 	text-indent: 0;
 	width: 600px;
+	margin-left: -5%;
 }
 
 
